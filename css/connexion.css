@@ -1,0 +1,100 @@
+body {
+  background-color: #979996;
+}
+
+
+/*fleche retour*/
+.zone_retour {
+  width : 100%;
+  height: 10px;
+  margin: 5px 0 ;
+}
+/*containeur*/
+.container4 {
+  display       : flex;
+  align-items   : center;
+  flex-direction: column;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+.container-fluid {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.input [type="submit"]{
+  display: none;
+}
+input {
+  text-align: center;
+  color: white;
+}
+.arrow {
+  margin-top: 15%;
+  width: 100%;
+}
+/*titre*/
+.demarrer {
+  margin-top: 10%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+/*logo*/
+.home {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+}
+/*h3*/
+.connect {
+  margin-top: 40px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+/*email*/
+.email {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  border: 2px solid #4CBEDD;
+  border-radius: 25px;
+  width: 100%;
+  font-weight: normal;
+  font-style: italic;
+  color: aliceblue;
+  font-size: 20px;
+  height: 50px;
+  background-color: transparent;
+  text-align: 2em;
+}
+/*mdp*/
+.password {
+  margin-top: 20px;
+  border: 2px solid #4CBEDD;
+  border-radius: 25px;
+  width: 100%;
+  font-size: 20px;
+  height: 50px;
+  background-color: transparent;
+  font-weight: normal;
+  font-style: italic;
+  color: aliceblue;
+  margin-bottom: 45px;
+}
+
+
+
+
+
+

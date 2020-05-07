@@ -1,0 +1,265 @@
+/* TODO : Implémenter les 3 sliders */
+/* TODO : Vérifier les dimensions des box après l'implémentation */
+
+
+/*? Atelier 3*/
+body {
+  background-color: #979996;
+  line-height: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*? Toute la page*/
+
+.ctnr_at3 {
+  width: 100%;
+}
+
+/*? Zone flèche retour*/
+
+.zone_retour {
+  /*background-color: royalblue;*/
+  width: 100%;
+  height: 10px;
+  margin: 5px 0;
+}
+
+
+/*? Zone Titre H1 + img avion + instruction*/
+
+.zone_titre_at3 {
+  /*background-color: chocolate;*/
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: px;
+}
+
+.titre1_at3 {
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.img_at3 {
+  width: 110px;
+  margin-bottom: 10px;
+
+}
+
+.instruction_at3 {
+  color: #D3D3D3;
+  font-style: italic;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+/*? Zone multislider */
+
+.zone_slider_at3 {
+  /*background-color: blue;*/
+  width: 100%;
+
+}
+
+.zone_slider_at3 h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+.multislider_at3 {
+  /*background-color: brown;*/
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.zone_slider_at3 p {
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+}
+
+/*? Zone button next */
+
+.zone_button_next {
+  /* background-color: cornflowerblue;*/
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button_next_at3 {
+  width: 70px;
+  margin-top: 25px;
+}
+/*Zonne curseur*/
+
+.slider{
+  width: 80px;
+}
+/*numéros slider*/
+
+#demo7 {
+  margin-left: 47%;
+}
+#demo6 {
+  margin-left: 47%;
+}
+#demo5 {
+  margin-left: 47%;
+}
+
+/*fin numéros slider*/
+/*petit logo haut-parleur*/
+.speaker {
+  position: absolute;
+  width: 10%;
+}
+/*petit logo drapeau*/
+.drap{
+  margin-top: -22px;
+
+position: absolute;
+
+width: 12%;
+
+margin-right: -13px;
+}
+.drapeau{
+  display: flex;
+  justify-content: right;
+  
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background: transparent;
+  width: 100%;
+  
+  outline: none;
+}
+
+input[type="range"]:focus,
+input[type="range"]:active,
+input[type="range"]::-moz-focus-inner,
+input[type="range"]::-moz-focus-outer {
+  border: 0;
+  outline: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+  border: none;
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+  background-image: url("https://gistcdn.githack.com/Wazlyy/3b52ea59e3165ae1431e4efbe80d693c/raw/b87c968e084595d76d555a8d52857b4b52eaac54/logo_cursor.svg");
+  background-position: 0 0;
+  background-size: 52px 50px;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb:active {
+  background-position: 100% 0px;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  background: rgb(235, 234, 234);
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-progress {
+  height: 10px;
+  background: #4CBEDD;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  border: none;
+  
+  
+  background-color: red;
+  background-image: url("https://gistcdn.githack.com/Wazlyy/3b52ea59e3165ae1431e4efbe80d693c/raw/b87c968e084595d76d555a8d52857b4b52eaac54/logo_cursor.svg");
+  background-position: 0 0;
+  background-size: 52px 50px;
+  cursor: pointer;
+  margin-top: -15px;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  background-position: 100% 0px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 20px;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+label {
+  background: #eee;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 1px;
+  font-family: Roboto, 'Helvetica Neue', Arial;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  color: #2968bb;
+  font-weight: bold;
+  content: '';
+}
+
+.number{
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 25px;
+  background-color: transparent;
+  border-radius: 20px;
+  margin-right: 48%;
+  font-family: "Saiyan";
+  font-weight: bold;
+  border: 2px solid #4CBEDD;
+}
+
+.slidecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.range_slider{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.slidecontainer p{
+  font-size: 10px;
+  color: #4CBEDD;
+}

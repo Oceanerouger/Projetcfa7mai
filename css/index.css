@@ -1,0 +1,93 @@
+@font-face {
+    font-family: "Saiyan";
+    src: url("../font/Saiyan-Sans.ttf") format("truetype");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 500px;
+    background-color: #bbecf8;
+}
+
+h1,
+h2 {
+    margin: 0;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo_declic {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.titre1 {
+    margin-top: 15px;
+    font-size: 100px;
+    font-family: "Saiyan";
+}
+
+.titre2 {
+    font-size: 20px;
+    font-family: Helvetica, sans-serif;
+   margin-bottom: 15px;
+}
+
+
+
+.partenaires {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.partenaire1{
+    width: 15%;
+}
+
+.partenaire2{
+    height: 30%;
+}
+
+.partenaire3{
+    width: 15%;
+}
+
+.partenaire4 {
+    width: 15%;
+    margin-right: 5px;
+}
+
+.zone_suivant{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10%;
+}
+.boutonfleche1 {
+    
+    width: 80px;
+    margin-top: 10%;
+  }
+  .arrow {
+    width: 100%;
+  }

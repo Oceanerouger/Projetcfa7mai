@@ -1,0 +1,120 @@
+/*resultat 1*/
+body {
+  background-color: #979996;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*? Zone flèche retour*/
+
+.zone_retour {
+  width: 100%;
+  height: 10px;
+  margin: 5px 0;
+} 
+
+.container5 {
+  display: flex;
+	justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resultat {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo3 {
+  margin-top: 10px;
+}
+
+.telechargement {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+.texte {
+  color: #daddd9;
+  font-size: 15px;
+  margin-left: 9%;
+  margin-top: 10%;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+margin-bottom: 40px;
+}
+
+/*ZONE PAGINATION*/
+.zone_pagination_at2 {
+  /*background-color: blueviolet;*/
+  width: 100%;
+}
+
+.zone_pag_at2 {
+  /*background-color: chocolate;*/
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pagination_at2 {
+  /*background-color: bisque;*/
+  width: 60%;
+  display: flex;
+
+  justify-content: space-around;
+}
+
+.page1 {
+  background-color: #4CBEDD;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+.page2 {
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+.page3 {
+  background-color: #fff;
+  border: none;
+  border-radius: 30px;
+  width: 40px;
+  height: 10px;
+}
+
+/*FIN ZONE PAGINATION*/
+/*BOUTON SUIVANT*/
+.zone_btn_at2 {
+  /*background-color: darkcyan;*/
+
+  flex-direction: row;
+  display: flex;
+  justify-content: content;
+  flex-direction: center;
+}
+
+.bouton_next_at2 {
+  width: 40px;
+}
+
+/* FIN BOUTON SUIVANT*/

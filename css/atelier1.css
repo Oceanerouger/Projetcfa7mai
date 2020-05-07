@@ -1,0 +1,120 @@
+/*Atelier 1*/
+body {
+  background-color: #979996;
+  margin: 0;
+
+}
+
+.container4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*? Zone flèche retour*/
+
+.zone_retour {
+  /*background-color: royalblue;*/
+  width: 100%;
+  height: 10px;
+  margin: 5px 0;
+}
+
+/*Atelier 1 et rencontre avec entreprise*/
+.atelier1 {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+/*Fin/*
+
+/*A quel entrepreneur vous identifiez vous
+        le plus ? Classer par ordre de
+        préférence.*/
+.ordre {
+  color: rgb(238, 238, 238);
+  font-size: 15px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+}
+
+/*Fin*/
+
+/*Pour les 3 entreprises*/
+.dropper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: all 200ms linear;
+
+}
+
+.dropper1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  transition: all 200ms linear;
+margin-bottom: 23px;
+margin-top: 15px;
+}
+
+.draggable {
+  color: white;
+  background-color: #4CBEDD;
+  border: 3px solid #4CBEDD;
+  border-radius: 20px;
+  width: 60%;
+  font-size: 15px;
+  height: 33px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: move;
+  user-select: none;
+  transition: all 200ms linear;
+  text-align: center;
+}
+
+.draggable2 {
+ 
+  color: white;
+  
+  border: 2px solid #4CBEDD;
+  border-radius: 20px;
+  width: 30%;
+  font-size: 15px;
+  height: 33px;
+  font-family: Helvetica, sans-serif;
+  
+  cursor: move;
+  user-select: none;
+  transition: all 200ms linear;
+  text-align: center;
+}
+
+/*Fin boutons entreprise*/
+
+/*Bouton suivant*/
+
+.boutonfleche1 {
+  width: 100px;
+  margin-top: 20px;
+}
+
+[type="submit"]{ 
+  background-color: transparent;
+ border-radius: none;
+}
+
+button{
+  background-color: none;
+  border: none;
+}

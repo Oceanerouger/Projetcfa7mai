@@ -1,0 +1,240 @@
+body {
+  background-color: #979996;
+}
+
+.arrow2{
+  width: 70px;
+  margin-left: 40%;
+ margin-top:40px;
+}
+
+.arrow {
+  width: 5%;
+}
+
+.arrow path{
+  fill: white;
+}
+
+.billet {
+  width: 50%;
+  margin-left: 25%;
+}
+
+.container4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+  
+.zone_retour {
+  /*background-color: royalblue;*/
+  width: 100%;
+  height: 10px;
+  margin: 5px 0;
+}
+
+
+/*Atelier 1 et rencontre avec entreprise*/
+.atelier1 {
+  margin-bottom: 5%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+/*fin*/
+
+
+/*A quel entrepreneur vous identifiez vous
+        le plus ? Classer par ordre de
+        préférence.*/
+.ordre {
+  margin-top: 5%;
+  color: rgb(238, 238, 238);
+  font-size: 15px;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: normal;
+
+}
+/*Fin*/
+
+.rep_atelier4 {
+  color: white;
+  font-size: 20px;
+}
+
+.score {
+  text-align: center;
+  margin-left: 25%;
+  margin-top: 20px;
+  border: 3px solid #4CBEDD;
+  border-radius: 20px;
+  width: 50%;
+  font-size: 20px;
+  height: 40px;
+  background-color: transparent;
+}
+
+
+ /*Zonne curseur*/
+
+.slider{
+  width: 80px;
+}
+/*numéros slider*/
+
+#demo8 {
+  margin-left: 47%;
+}
+
+/*fin numéros slider*/
+/*petit logo haut-parleur*/
+.speaker {
+  position: absolute;
+  width: 10%;
+}
+/*petit logo drapeau*/
+.hautparleur{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+  margin-top: -5px;
+  color: #4CBEDD;
+  }
+ 
+  /*petit logo drapeau*/
+  .drap{
+    margin-top:-5px;
+    position: absolute;
+    width: 10%;
+  }
+  .drapeau{
+    display: flex;
+    justify-content: right;
+    margin-top: -20px;
+  
+  color: #4CBEDD;
+  }
+
+input[type="range"] {
+  -webkit-appearance: none;
+  background: transparent;
+  width: 100%;
+  
+  outline: none;
+}
+
+input[type="range"]:focus,
+input[type="range"]:active,
+input[type="range"]::-moz-focus-inner,
+input[type="range"]::-moz-focus-outer {
+  border: 0;
+  outline: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+  border: none;
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+  background-image: url("https://gistcdn.githack.com/Wazlyy/3b52ea59e3165ae1431e4efbe80d693c/raw/b87c968e084595d76d555a8d52857b4b52eaac54/logo_cursor.svg");
+  background-position: 0 0;
+  background-size: 52px 50px;
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-thumb:active {
+  background-position: 100% 0px;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 10px;
+  background: rgb(235, 234, 234);
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+input[type="range"]::-moz-range-progress {
+  height: 10px;
+  background: #4CBEDD;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  border: none;
+  
+  
+  background-color: red;
+  background-image: url("https://gistcdn.githack.com/Wazlyy/3b52ea59e3165ae1431e4efbe80d693c/raw/b87c968e084595d76d555a8d52857b4b52eaac54/logo_cursor.svg");
+  background-position: 0 0;
+  background-size: 52px 50px;
+  cursor: pointer;
+  margin-top: -15px;
+  -webkit-appearance: none;
+}
+
+input[type="range"]::-webkit-slider-thumb:active {
+  background-position: 100% 0px;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 20px;
+  background: #eee;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  -webkit-appearance: none;
+}
+
+label {
+  background: #eee;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  padding: 1px;
+  font-family: Roboto, 'Helvetica Neue', Arial;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+  color: #2968bb;
+  font-weight: bold;
+  content: '';
+}
+
+.number{
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 25px;
+  background-color: transparent;
+  border-radius: 20px;
+  margin-right: 48%;
+  font-family: "Saiyan";
+  font-weight: bold;
+  border: 2px solid #4CBEDD;
+}
+
+.slidecontainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.range_slider{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.slidecontainer p{
+  font-size: 10px;
+  color: #4CBEDD;
+}
